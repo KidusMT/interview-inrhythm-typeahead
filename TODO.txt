@@ -1,0 +1,23 @@
+TODO
+
+- Basic 
+    - XHR for countries
+    - Store in reducer 
+    - Pass countries to typeahead
+    - On change, filter choices 
+    - On click, pass choice up to Page 
+    - Page adds it to redux 
+    - Basic styling 
+
+
+- Additional options 
+    - Handle enter key (correct answer: is select first choice and prevent form submission)
+    - Handle the escape key 
+    - Onload, focus in field 
+    - Up, down arrows 
+
+- Questions 
+    - (Create list here)
+
+- We should update the TS2 scorecard 
+
