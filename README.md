@@ -16,7 +16,7 @@ Most of all we just want to see how you code
 1. Clone the repo
    ```
    git clone https://github.com/mattbillard/interview-inrhythm-typeahead.git
-   cd interview-react-router-redux-typescript
+   cd interview-inrhythm-typeahead
    ```
 1. Create a branch with todays date and your name in this format:  
    ```
@@ -47,7 +47,7 @@ Most of all we just want to see how you code
 ---
 
 ### Part C - Improved UX
-- Open `typeahead.tsx`
+- Open `typeahead.tsx` and `form-page.tsx`
 - Propose some ideas that would improve the user-experience. We'll work on some together
 
 ---
