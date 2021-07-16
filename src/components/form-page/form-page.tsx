@@ -14,7 +14,7 @@ export const FormPage: React.FC<IFormPage> = (props) => {
   /**
    * TODO: 
    * This component currently uses setState. We would like to use Redux instead
-   * - Please change the useEffect and handleClick methods to dispatch actions instead
+   * - Please change the useEffect and onChange methods to dispatch actions instead
    * - Here are two lines you might need
    *    const { country, countries } = useSelector((state: IStoreState) => state.sampleReducer);
    *    const dispatch = useDispatch();
@@ -29,7 +29,7 @@ export const FormPage: React.FC<IFormPage> = (props) => {
     })();
   }, []);
 
-  const handleClick = (choice: string) => {
+  const onChange = (choice: string) => {
     // TODO: move this into actions/redux
     setCountry(choice);
   };
@@ -38,7 +38,7 @@ export const FormPage: React.FC<IFormPage> = (props) => {
     <>
       <form>
         <label>Country: </label>
-        <Typeahead options={countries} onChange={handleClick} />
+        <Typeahead options={countries} onChange={onChange} />
         <button type="submit">Submit</button>
         <br />
         <br />
