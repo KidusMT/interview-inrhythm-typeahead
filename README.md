@@ -13,22 +13,22 @@ Most of all we just want to see how you code
 
 ### Setup
 1. We will grant you access to this repo
-1. Clone the repo
+2. Clone the repo
    ```
    git clone https://github.com/mattbillard/interview-inrhythm-typeahead.git
    cd interview-inrhythm-typeahead
    ```
-1. Create a branch with todays date and your name in this format:  
+3. Create a branch with todays date and your name in this format:  
    ```
    git checkout -b YYYY-MM-DD-your-name
    ```
-1. Run the following
+4. Run the following
    ```
    npm install
    npm start
    ```
-1. We have already built some code for you. Try it out in your browser. Look through the files.
-1. You may now start. Good luck!
+5. We have already built some code for you. Try it out in your browser. Look through the files.
+6. You may now start. Good luck!
 
 ---
 
