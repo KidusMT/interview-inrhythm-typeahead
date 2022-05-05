@@ -18,17 +18,19 @@ Most of all we just want to see how you code
    git clone https://github.com/mattbillard/interview-inrhythm-typeahead.git
    cd interview-inrhythm-typeahead
    ```
-3. Create a branch with todays date and your name in this format:  
-   ```
-   git checkout -b YYYY-MM-DD-your-name
-   ```
-4. Run the following
-   ```
+3. Run the following
+   ```sh
    npm install
    npm start
+   
+   # If npm start doesn't work, try this instead:
+   # For mac
+   npm start-openssl-legacy:mac
+   # For windows
+   npm start-openssl-legacy:windows
    ```
-5. We have already built some code for you. Try it out in your browser. Look through the files.
-6. You may now start. Good luck!
+4. We have already built some code for you. Try it out in your browser. Look through the files.
+5. You may now start. Good luck!
 
 ---
 
