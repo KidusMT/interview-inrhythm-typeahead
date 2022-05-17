@@ -15,7 +15,7 @@ Most of all we just want to see how you code
 1. We will grant you access to this repo
 2. Clone the repo
    ```
-   git clone https://github.com/mattbillard/interview-inrhythm-typeahead.git
+   git clone https://github.com/inrhythm-official/interview-inrhythm-typeahead.git
    cd interview-inrhythm-typeahead
    ```
 3. Run the following
